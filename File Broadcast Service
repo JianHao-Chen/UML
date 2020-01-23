@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-15T08:45:10.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="buweaMWycmHV2_fAIAbG" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-23T08:59:57.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="tCNePd2XK7YNXyNwFprH" version="12.5.6" type="github">
   <diagram id="mF-nOlIu8rs_0L3S3AIx" name="Page-1">
-    <mxGraphModel dx="2235" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2109" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -151,77 +151,80 @@
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-41" value="PersistentService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="343.5" width="120" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-1" value="BroadcastService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-1" value="BroadcastService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="244" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-2" value="开播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-2" value="开播" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="273" width="60" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-3" value="关播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-3" value="关播" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="296.5" width="60" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-4" value="ProgrammeService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-4" value="ProgrammeService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="241.5" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-5" value="节目单管理&lt;br&gt;(增删查改)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-5" value="节目单管理&lt;br&gt;(增删查改)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="273" width="110" height="32" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-6" value="BroadcastTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-6" value="BroadcastTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="384.5" width="100" height="37" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-7" value="BroadcastTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-7" value="BroadcastTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="394.5" width="100" height="37" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-8" value="ProgrammeTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-8" value="ProgrammeTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="404.5" width="100" height="37" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Hha9P1TOiaNRx4BlCyN-1" target="5t95F9wdaRaAVlQAqKic-6">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Hha9P1TOiaNRx4BlCyN-1" target="5t95F9wdaRaAVlQAqKic-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="551.5" as="sourcePoint"/>
             <mxPoint x="580" y="501.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-10" value="CallbackService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-10" value="CallbackService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="231" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-12" value="处理回调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-12" value="处理回调" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="258.5" width="60" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-13" value="修改标题" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-13" value="修改标题" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="319.5" width="60" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="820" y="238.5" width="120" height="93" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="379.5" width="100" height="37" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="389.5" width="100" height="38.5" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-17" value="StreamTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-17" value="StreamTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="399.5" width="100" height="37" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5t95F9wdaRaAVlQAqKic-14" target="5t95F9wdaRaAVlQAqKic-15">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5t95F9wdaRaAVlQAqKic-14" target="5t95F9wdaRaAVlQAqKic-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="288.5" as="sourcePoint"/>
             <mxPoint x="740" y="316.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-19" value="StreamService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-19" value="StreamService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="860" y="241" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-20" value="流管理&lt;br&gt;（增删查改）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-20" value="流管理&lt;br&gt;（增删查改）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="268.5" width="80" height="33" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-21" value="流状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-21" value="流状态" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="308.5" width="60" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-24" value="流配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-24" value="流配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="268.5" width="60" height="17" as="geometry"/>
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-25" value="节目单配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5t95F9wdaRaAVlQAqKic-25" value="节目单配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="268" width="70" height="17" as="geometry"/>
+        </mxCell>
+        <mxCell id="DhgJ1RNHG3q5p_7rnhq3-1" value="AuthorityService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="231" width="120" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
