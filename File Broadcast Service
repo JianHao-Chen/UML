@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-29T07:18:00.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Of00i5BUo0Y9FKAmcSJY" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-30T05:11:27.295Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="u-GGLRTwPltUxvlE9XxD" version="12.5.8" type="github">
   <diagram id="mF-nOlIu8rs_0L3S3AIx" name="Page-1">
     <mxGraphModel dx="1869" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
             <mxPoint x="930" y="306.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Hha9P1TOiaNRx4BlCyN-41" value="PersistentService&lt;br&gt;（暂定不要）" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;gradientColor=#FF99CC;" parent="1" vertex="1">
+        <mxCell id="8Hha9P1TOiaNRx4BlCyN-41" value="PersistentService" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;gradientColor=#FF99CC;" parent="1" vertex="1">
           <mxGeometry x="190" y="343.5" width="120" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-1" value="BroadcastService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -238,7 +238,7 @@
         <mxCell id="DhgJ1RNHG3q5p_7rnhq3-4" value="AuthorityCheck&lt;br&gt;InBoundHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="358" width="100" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9X762xYHvGKfjCc8HzKj-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;1. 节目单包含 “工作” 和 “正式” 版本&lt;br&gt;2. 提供接口，让app端调用，填充节目单的视频url、时长等信息&lt;br&gt;3. AppId权限在哪里校验？在具体的Service里面。&lt;br&gt;4. 暂定不要 PersistenceService，通过在具体Service里面异步执行redis、Mysql读写操作，并通过内部消息队列返回结果。（可以通过控制线程池的线程数量，从而控制并发读写）&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9X762xYHvGKfjCc8HzKj-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;1. 节目单包含 “工作” 和 “正式” 版本&lt;br&gt;2. 提供接口，让app端调用，填充节目单的视频url、时长等信息&lt;br&gt;3. AppId权限在哪里校验？在具体的Service里面。&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="10" width="420" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="9X762xYHvGKfjCc8HzKj-2" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;gradientColor=#B9E0A5;" vertex="1" parent="1">
