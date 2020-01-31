@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-30T05:11:27.295Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="u-GGLRTwPltUxvlE9XxD" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-31T04:17:54.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="H2dmIHkjmdhKhK1olCGw" version="12.5.8" type="github">
   <diagram id="mF-nOlIu8rs_0L3S3AIx" name="Page-1">
     <mxGraphModel dx="1869" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
         <mxCell id="DhgJ1RNHG3q5p_7rnhq3-4" value="AuthorityCheck&lt;br&gt;InBoundHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="358" width="100" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9X762xYHvGKfjCc8HzKj-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;1. 节目单包含 “工作” 和 “正式” 版本&lt;br&gt;2. 提供接口，让app端调用，填充节目单的视频url、时长等信息&lt;br&gt;3. AppId权限在哪里校验？在具体的Service里面。&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9X762xYHvGKfjCc8HzKj-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;1. 节目单包含 “工作” 和 “正式” 版本&lt;br&gt;2. 提供接口，让app端调用，填充节目单的视频url、时长等信息&lt;br&gt;3. AppId权限在哪里校验？在具体的Service里面。&lt;br&gt;4. &lt;font color=&quot;#ffb366&quot;&gt;例如“开播请求”，需要获取节目单和流状态，那么应该发消息给ProgrammeService和StreamService吗？还是直接发消息到PersistentService呢？暂定发送到&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ffb366&quot;&gt;PersistentService！！&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="10" width="420" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="9X762xYHvGKfjCc8HzKj-2" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;gradientColor=#B9E0A5;" vertex="1" parent="1">
