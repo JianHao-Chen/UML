@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-04-29T11:22:28.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="T6jpQESqOAPk5qRBjawv" version="12.9.14" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-05-06T12:02:07.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="MBFHQ_S61QPvobXkVP42" version="12.9.14" type="github" pages="2">
   <diagram id="mF-nOlIu8rs_0L3S3AIx" name="架构图">
-    <mxGraphModel dx="2475" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2475" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="620" y="241.5" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="221.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="1190" y="226.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-4" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="40" height="100" as="geometry" />
@@ -108,7 +108,7 @@
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-31" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;" parent="1" target="8Hha9P1TOiaNRx4BlCyN-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="177" y="253" as="sourcePoint" />
+            <mxPoint x="169" y="253" as="sourcePoint" />
             <mxPoint x="270" y="150" as="targetPoint" />
             <Array as="points">
               <mxPoint x="100" y="253" />
@@ -137,18 +137,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="371" width="100" height="37" as="geometry" />
+          <mxGeometry x="1210" y="376.25" width="100" height="37" as="geometry" />
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="381" width="100" height="38.5" as="geometry" />
+          <mxGeometry x="1220" y="386.25" width="100" height="38.5" as="geometry" />
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-39" value="CallbackTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="391" width="100" height="37" as="geometry" />
+          <mxGeometry x="1230" y="396.25" width="100" height="37" as="geometry" />
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Hha9P1TOiaNRx4BlCyN-3" target="8Hha9P1TOiaNRx4BlCyN-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1170" y="271.5" as="sourcePoint" />
-            <mxPoint x="1200" y="299.5" as="targetPoint" />
+            <mxPoint x="1080" y="276.75" as="sourcePoint" />
+            <mxPoint x="1110" y="304.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8Hha9P1TOiaNRx4BlCyN-41" value="PersistentService" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;gradientColor=#FF99CC;" parent="1" vertex="1">
@@ -166,8 +166,8 @@
         <mxCell id="5t95F9wdaRaAVlQAqKic-4" value="ProgrammeService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="241.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-5" value="节目单管理&lt;br&gt;(增删查改)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="273" width="110" height="32" as="geometry" />
+        <mxCell id="5t95F9wdaRaAVlQAqKic-5" value="修改播放节目" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="273" width="80" height="17" as="geometry" />
         </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-6" value="BroadcastTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="384.5" width="100" height="37" as="geometry" />
@@ -185,10 +185,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-10" value="CallbackService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="224" width="40" height="20" as="geometry" />
+          <mxGeometry x="1230" y="229.25" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-12" value="处理回调" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="251.5" width="60" height="17" as="geometry" />
+          <mxGeometry x="1240" y="256.75" width="60" height="17" as="geometry" />
         </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-13" value="修改标题" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="319.5" width="60" height="17" as="geometry" />
@@ -214,20 +214,17 @@
         <mxCell id="5t95F9wdaRaAVlQAqKic-19" value="StreamService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="860" y="241" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-20" value="流管理&lt;br&gt;（增删查改）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="268.5" width="80" height="33" as="geometry" />
-        </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-21" value="流状态" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="308.5" width="60" height="17" as="geometry" />
+          <mxGeometry x="870" y="273" width="60" height="17" as="geometry" />
         </mxCell>
         <mxCell id="5t95F9wdaRaAVlQAqKic-24" value="流配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="268.5" width="60" height="17" as="geometry" />
+          <mxGeometry x="830" y="301.5" width="60" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="5t95F9wdaRaAVlQAqKic-25" value="节目单配置" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="268" width="70" height="17" as="geometry" />
+        <mxCell id="5t95F9wdaRaAVlQAqKic-25" value="节目单编排" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="305" width="70" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="DhgJ1RNHG3q5p_7rnhq3-1" value="AppConfigService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="231" width="120" height="50" as="geometry" />
+        <mxCell id="DhgJ1RNHG3q5p_7rnhq3-1" value="AuthorityService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="229.25" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DhgJ1RNHG3q5p_7rnhq3-2" value="HealthCheck&lt;br&gt;InBoundHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="244" width="100" height="40" as="geometry" />
@@ -238,8 +235,8 @@
         <mxCell id="DhgJ1RNHG3q5p_7rnhq3-4" value="AuthorityCheck&lt;br&gt;InBoundHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="358" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9X762xYHvGKfjCc8HzKj-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;1. 节目单包含 “工作” 和 “正式” 版本&lt;br&gt;2. 提供接口，让app端调用，填充节目单的视频url、时长等信息（暂时通过将url这些信息作为非必填，留到开播前才必填）&lt;br&gt;3. AppId权限在哪里校验？在具体的Service里面。&lt;br&gt;4. &lt;font color=&quot;#ffb366&quot;&gt;例如“开播请求”，需要获取节目单和流状态，那么应该发消息给ProgrammeService和StreamService吗？还是直接发消息到PersistentService呢？暂定发送到&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ffb366&quot;&gt;PersistentService！！&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;5. broadcastHandler，由用户配置定义，用于开播前的操作。作为开播任务的其中一部分，构造相应的开播请求参数。StreamService通过请求AppConfigService获得&lt;/b&gt;&lt;b&gt;broadcastHandler的相关信息。&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="10" width="420" height="110" as="geometry" />
+        <mxCell id="9X762xYHvGKfjCc8HzKj-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;1. 节目单包含 “工作” 、“正式”、“实时” 版本&lt;br&gt;2. 签名、token的验证，放在AuthorityService&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="10" width="520" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9X762xYHvGKfjCc8HzKj-2" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;labelBackgroundColor=none;gradientColor=#B9E0A5;" parent="1" vertex="1">
           <mxGeometry x="400" y="823.5" width="120" height="40" as="geometry" />
