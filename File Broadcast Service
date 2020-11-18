@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T10:06:13.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pIJZh5bcMKLpZFBrhwtV" version="13.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-18T12:38:34.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eodUSO7PpweAT-SvcEjB" version="13.9.2" type="github" pages="3">
   <diagram id="mF-nOlIu8rs_0L3S3AIx" name="架构图">
     <mxGraphModel dx="2489" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -379,7 +379,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ELScZbHgPI6cHiCbcGUg" name="时序图">
-    <mxGraphModel dx="1937" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kvOTa3_uU4YM1UOKc7UY-0" />
         <mxCell id="kvOTa3_uU4YM1UOKc7UY-1" parent="kvOTa3_uU4YM1UOKc7UY-0" />
@@ -924,6 +924,9 @@
       <root>
         <mxCell id="mnRUhEPkWdpXv3AHCrki-0" />
         <mxCell id="mnRUhEPkWdpXv3AHCrki-1" parent="mnRUhEPkWdpXv3AHCrki-0" />
+        <mxCell id="p1vOS9x9L_xsZuBtifm--0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mnRUhEPkWdpXv3AHCrki-1">
+          <mxGeometry x="20" y="151" width="780" height="549" as="geometry" />
+        </mxCell>
         <mxCell id="mnRUhEPkWdpXv3AHCrki-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mnRUhEPkWdpXv3AHCrki-1">
           <mxGeometry x="120" y="440" width="280" height="120" as="geometry" />
         </mxCell>
