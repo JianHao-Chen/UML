@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T16:08:44.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Mgb9mimoL90zSxtdyBTR" version="13.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-03T03:52:19.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="5NOF8iGJuDE1IVk8m3n6" version="13.10.0" type="github" pages="3">
   <diagram id="mF-nOlIu8rs_0L3S3AIx" name="架构图">
-    <mxGraphModel dx="1869" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,12 +378,6 @@
         <mxCell id="5gjTyuPW4YUp2QB4yapR-40" value="请求推流&lt;br&gt;（外部接口）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1420" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5gjTyuPW4YUp2QB4yapR-41" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5gjTyuPW4YUp2QB4yapR-44" target="5gjTyuPW4YUp2QB4yapR-39" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="140" as="sourcePoint" />
-            <mxPoint x="1180" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5gjTyuPW4YUp2QB4yapR-42" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5gjTyuPW4YUp2QB4yapR-39" target="5gjTyuPW4YUp2QB4yapR-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1430" y="70" as="sourcePoint" />
@@ -395,9 +389,6 @@
             <mxPoint x="1667.38" y="140" as="sourcePoint" />
             <mxPoint x="1640" y="140" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="5gjTyuPW4YUp2QB4yapR-44" value="初始化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1127.38" y="120" width="77.38" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5gjTyuPW4YUp2QB4yapR-45" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="120" width="77.38" height="40" as="geometry" />
@@ -585,25 +576,25 @@
             <mxPoint x="1752.5" y="387.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Sc75mqHH8DhkeZL3r66-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="-Sc75mqHH8DhkeZL3r66-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="850" y="371.31" width="110" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="-Sc75mqHH8DhkeZL3r66-2" value="Netty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-Sc75mqHH8DhkeZL3r66-2" value="Netty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="885" y="375.31" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-Sc75mqHH8DhkeZL3r66-3" value="IO线程池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="-Sc75mqHH8DhkeZL3r66-3" value="IO线程池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="870" y="415.31" width="80" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="-Sc75mqHH8DhkeZL3r66-4" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;fillColor=#ffff88;strokeColor=#36393d;" edge="1" parent="1" source="-Sc75mqHH8DhkeZL3r66-3" target="5gjTyuPW4YUp2QB4yapR-5">
+        <mxCell id="-Sc75mqHH8DhkeZL3r66-4" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;fillColor=#ffff88;strokeColor=#36393d;" parent="1" source="-Sc75mqHH8DhkeZL3r66-3" target="5gjTyuPW4YUp2QB4yapR-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="420" as="sourcePoint" />
             <mxPoint x="1050" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Sc75mqHH8DhkeZL3r66-5" value="推流请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="-Sc75mqHH8DhkeZL3r66-5" value="推流请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="1012.38" y="398.56" width="55" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-Sc75mqHH8DhkeZL3r66-6" value="消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="-Sc75mqHH8DhkeZL3r66-6" value="消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="980.0000000000001" y="401.5199999999999" width="30" height="22" as="geometry" />
         </mxCell>
       </root>
