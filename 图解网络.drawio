@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T08:36:46.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="smp9mmDaTzbOHMY_tjjv" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T10:59:50.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CRtdFEwAE8fgDhqDtvta" version="20.5.1" type="github" pages="2">
   <diagram id="48ETrjCSjWNvzhYSmwD_" name="网络包接收">
     <mxGraphModel dx="1221" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,6 +333,23 @@
         </mxCell>
         <mxCell id="DZg0SzJ-2mYi3TYw6h-q-103" value="1. 中断分离为软硬： 硬中断必须尽快处理，其他耗时操作由软中断执行&lt;br&gt;2. 网卡接收队列 (RX队列)， 也就是 RingBuffer,&amp;nbsp; 由网卡驱动向内核申请内存并建立 RX队列与内存的映射关系&lt;br&gt;3. NAPI机制 ： 结合轮询和中断的优点，通过批量从 ring_buffer 收包提高效率&lt;br&gt;4.上图有2个数据拷贝过程：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(1)&amp;nbsp; 网卡DMA数据到 RingBuffer&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(2) 软中断进程从 RingBuffer 拷贝到 skb_buffer" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;align=left;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="20" y="750" width="780" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i9-ArT53JYzOh_GW2-HT" name="网络包发送">
+    <mxGraphModel dx="1038" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nWpBOQFV4bgc_5KaAe95-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;应用程序&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nWpBOQFV4bgc_5KaAe95-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;系统调用 send&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="254" y="100" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nWpBOQFV4bgc_5KaAe95-4" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="45" width="54" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
