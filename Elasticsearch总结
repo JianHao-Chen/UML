@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T09:40:56.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="S6kJtN54MOkFb5uMyYUY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-19T15:23:18.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="R28bGtKaKztOpmSGxnZr" type="github">
   <diagram id="gsQhGRznFafLdkhlarxY" name="第 1 页">
     <mxGraphModel dx="1877" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
           <mxGeometry x="80" y="820" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-56" value="Lucene50PostingsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="920" width="150" height="30" as="geometry" />
+          <mxGeometry x="160" y="970" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-57" value="Lucene50SkipWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="880" width="120" height="30" as="geometry" />
@@ -160,7 +160,7 @@
         <mxCell id="-qaSsre2YBbdbYtxjaB4-59" value="*.pos&lt;br&gt;（记录 Term 在每篇文档中的分词位置）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1030" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-qaSsre2YBbdbYtxjaB4-60" value="*.pay&lt;br&gt;（记录 Term 在每篇文档中的分词位置）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-60" value="*.pay&lt;br&gt;（记录 Payload 信息和偏移量信息）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="314" y="1030" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
