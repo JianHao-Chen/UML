@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T14:14:34.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="0iUwivwlP6LeLX0z5QPt" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-20T14:30:39.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="1xF1uKRhd90jccqXAmfH" type="github" pages="2">
   <diagram id="gsQhGRznFafLdkhlarxY" name="第 1 页">
     <mxGraphModel dx="1906" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           <mxGeometry x="1050" y="830" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-55" value="BlockTreeTermsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="1020" width="140" height="30" as="geometry" />
+          <mxGeometry x="40" y="990" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-56" value="Lucene50PostingsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1060" width="150" height="30" as="geometry" />
@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q6qssK868JcLqhfsViJM-1" value="FST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1050" width="120" height="30" as="geometry" />
+          <mxGeometry x="-80" y="1060" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -456,6 +456,9 @@
         </mxCell>
         <mxCell id="7J63irWxCNgRPCtVQtJ1-72" value="&lt;font color=&quot;#ff3333&quot;&gt;(5)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-220" y="1760" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMhXHZQ8hFr0BVJjAWFQ-1" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;zSLM-1673179622316&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;heading&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;version&amp;quot;:1,&amp;quot;level&amp;quot;:&amp;quot;h2&amp;quot;},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Y84E-1673179622315&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;倒排查询逻辑&amp;quot;,&amp;quot;marks&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;bold&amp;quot;},{&amp;quot;type&amp;quot;:&amp;quot;fontSize&amp;quot;,&amp;quot;value&amp;quot;:22}]}]}]}]&quot;&gt;&lt;div style=&quot;line-height: 1.75; text-align: left;&quot; id=&quot;txM2-1674224871003&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;倒排查询逻辑&lt;/font&gt;&lt;div style=&quot;line-height: 1.75;&quot; id=&quot;txM2-1674224871003&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;通过 Term Index 数据（.tip文件）中的 StartFP 获取指定字段的 FST&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot; id=&quot;txM2-1674224871003&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;通过 FST 找到指定 Term 在 Term Dictionary（.tim 文件）可能存在的 Block&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot; id=&quot;txM2-1674224871003&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;将对应 Block 加载内存，遍历 Block 中的 Entry，通过后缀（Suffix）判断是否存在指定 Term&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot; id=&quot;txM2-1674224871003&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;存在则通过 Entry 的 TermStat 数据中各个文件的 FP 获取 Posting 数据&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 1.75;&quot; id=&quot;txM2-1674224871003&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;如果需要获取 Term 对应的所有 DocId 则直接遍历 TermFreqs，如果获取指定 DocId 数据则通过 SkipData快速跳转&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1530" width="610" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
