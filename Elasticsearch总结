@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T15:23:18.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="R28bGtKaKztOpmSGxnZr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T05:28:19.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="yjkxWY0kQHn6vz1MlOXj" type="github">
   <diagram id="gsQhGRznFafLdkhlarxY" name="第 1 页">
     <mxGraphModel dx="1877" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-71" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="1280" width="530" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-1" value="IndexWriter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="40" as="geometry" />
         </mxCell>
@@ -68,28 +71,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-32" value="Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="700" width="60" height="30" as="geometry" />
+          <mxGeometry x="-422" y="1880" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="760" as="sourcePoint" />
-            <mxPoint x="980" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qaSsre2YBbdbYtxjaB4-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-29" target="-qaSsre2YBbdbYtxjaB4-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="940" as="sourcePoint" />
-            <mxPoint x="510" y="890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-qaSsre2YBbdbYtxjaB4-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-30" target="-qaSsre2YBbdbYtxjaB4-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="414" y="750" as="sourcePoint" />
-            <mxPoint x="414" y="810" as="targetPoint" />
+            <mxPoint x="-262" y="1940" as="sourcePoint" />
+            <mxPoint x="718" y="1940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-36" value="Disk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="780" width="60" height="30" as="geometry" />
+          <mxGeometry x="-422" y="1960" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-38" value="保存对应文档在 fdt 文件中的偏移量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="870" width="86" height="30" as="geometry" />
@@ -149,19 +140,70 @@
           <mxGeometry x="80" y="820" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-56" value="Lucene50PostingsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="970" width="150" height="30" as="geometry" />
+          <mxGeometry x="240" y="1060" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-57" value="Lucene50SkipWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="880" width="120" height="30" as="geometry" />
+          <mxGeometry x="-50" y="910" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-qaSsre2YBbdbYtxjaB4-58" value="*.doc&lt;br&gt;(记录 Postings 的 docId 信息和 Term 的词频)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1030" width="140" height="70" as="geometry" />
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-58" value="*.doc&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1130" width="40" height="41" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-59" value="*.pos&lt;br&gt;（记录 Term 在每篇文档中的分词位置）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1030" width="130" height="70" as="geometry" />
+          <mxGeometry x="250" y="1130" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-60" value="*.pay&lt;br&gt;（记录 Payload 信息和偏移量信息）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="314" y="1030" width="130" height="70" as="geometry" />
+          <mxGeometry x="394" y="1130" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-61" value="CompressingTermVectorsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="1770" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-62" value="TermsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="960" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-63" value="*.tim&lt;br&gt;(记录 Postings 的 docId 信息和 Term 的词频)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1030" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-64" value="以块的形式写 Term&amp;nbsp;Dictionary 和 Term Index（FST）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="755" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-65" value="header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-19.5" y="1311" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-66" value="TermFreqs1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20.5" y="1311" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-67" value="SkipData1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100.5" y="1311" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-68" value="TermFreqsN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219.5" y="1311" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-69" value="SkipDataN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="1311" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-70" value="......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180.5" y="1311" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-72" value=".doc文件(记录 Postings 的 docId 信息和 Term 的词频)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="1280" width="319" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-73" value="DocId Block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-74" value="Freqs Block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-73" target="-qaSsre2YBbdbYtxjaB4-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1450" as="sourcePoint" />
+            <mxPoint x="180" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qaSsre2YBbdbYtxjaB4-76" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-74" target="-qaSsre2YBbdbYtxjaB4-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="1410" as="sourcePoint" />
+            <mxPoint x="30.5" y="1361" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
