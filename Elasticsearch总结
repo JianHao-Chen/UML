@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-21T08:32:19.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="mZp8-TIyRb0Yfl1w9b9K" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-21T08:35:40.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="ScF-Y7It5X9GnIPanRMt" type="github" pages="2">
   <diagram id="gsQhGRznFafLdkhlarxY" name="第 1 页">
     <mxGraphModel dx="2368" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="-198" y="599" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-14" value="CompressingStoredFieldsWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="368" y="600" width="180" height="20" as="geometry" />
+          <mxGeometry x="78" y="598" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-18" value="*.fdx&lt;br&gt;域索引文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="655" y="1125" width="74" height="40" as="geometry" />
@@ -48,38 +48,38 @@
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-14" target="-qaSsre2YBbdbYtxjaB4-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="478" y="560" as="sourcePoint" />
-            <mxPoint x="438" y="660" as="targetPoint" />
+            <mxPoint x="188" y="558" as="sourcePoint" />
+            <mxPoint x="148" y="658" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-29" value="chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="438" y="700" width="40" height="40" as="geometry" />
+          <mxGeometry x="148" y="698" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-39" value="*.fdt：&lt;br&gt;保存存储域(stored field)信息：&lt;br&gt;当前段--&amp;gt;每篇文档 --&amp;gt;每个 field&lt;br&gt;&lt;br&gt;&lt;br&gt;*.fdx：&lt;br&gt;保存对应文档在 fdt 文件中的偏移量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="1175" width="210" height="124.5" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-40" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="628" y="700" width="40" height="40" as="geometry" />
+          <mxGeometry x="390" y="698" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-41" value="DocValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="588" y="600" width="120" height="20" as="geometry" />
+          <mxGeometry x="350" y="598" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-41" target="-qaSsre2YBbdbYtxjaB4-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="738" y="700" as="sourcePoint" />
-            <mxPoint x="788" y="650" as="targetPoint" />
+            <mxPoint x="500" y="698" as="sourcePoint" />
+            <mxPoint x="550" y="648" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-44" value="PointsValuesWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="748" y="600" width="120" height="20" as="geometry" />
+          <mxGeometry x="510" y="598" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-45" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="788" y="700" width="40" height="40" as="geometry" />
+          <mxGeometry x="550" y="698" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-46" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-44" target="-qaSsre2YBbdbYtxjaB4-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="748" y="640" as="sourcePoint" />
-            <mxPoint x="658" y="710" as="targetPoint" />
+            <mxPoint x="510" y="638" as="sourcePoint" />
+            <mxPoint x="420" y="708" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qaSsre2YBbdbYtxjaB4-47" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -172,22 +172,16 @@
         <mxCell id="jFmLBydTxy6HVp0taI7g-5" value="&lt;font color=&quot;#000000&quot;&gt;IndexChain&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="-280" y="591.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jFmLBydTxy6HVp0taI7g-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-13" target="xJ2DTqigO46Sq3Atfy-0-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="700" as="sourcePoint" />
-            <mxPoint x="190" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jFmLBydTxy6HVp0taI7g-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-14" target="-qaSsre2YBbdbYtxjaB4-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="318" y="620" as="sourcePoint" />
-            <mxPoint x="378" y="620" as="targetPoint" />
+            <mxPoint x="28" y="618" as="sourcePoint" />
+            <mxPoint x="88" y="618" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jFmLBydTxy6HVp0taI7g-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-41" target="-qaSsre2YBbdbYtxjaB4-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="718" y="570" as="sourcePoint" />
-            <mxPoint x="818" y="570" as="targetPoint" />
+            <mxPoint x="480" y="568" as="sourcePoint" />
+            <mxPoint x="580" y="568" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xJ2DTqigO46Sq3Atfy-0-1" value="对于 Term 是数值类型，为满足&amp;nbsp;&lt;br&gt;1) 范围查询&amp;nbsp; &amp;nbsp; &amp;nbsp;2) 多维度数据(如经纬度)查询&lt;br&gt;&lt;br&gt;PointsValue 采用 BKDTree 结构存储" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -212,25 +206,25 @@
           <mxGeometry x="-262" y="1150" width="442" height="240" as="geometry" />
         </mxCell>
         <mxCell id="xJ2DTqigO46Sq3Atfy-0-8" value="TermVectorsConsumer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="170" y="599" width="160" height="22.5" as="geometry" />
+          <mxGeometry x="980" y="598" width="160" height="22.5" as="geometry" />
         </mxCell>
-        <mxCell id="xJ2DTqigO46Sq3Atfy-0-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xJ2DTqigO46Sq3Atfy-0-8" target="-qaSsre2YBbdbYtxjaB4-14">
+        <mxCell id="xJ2DTqigO46Sq3Atfy-0-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-13" target="-qaSsre2YBbdbYtxjaB4-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="590" as="sourcePoint" />
             <mxPoint x="370" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xJ2DTqigO46Sq3Atfy-0-10" value="chunk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="700" width="40" height="40" as="geometry" />
+          <mxGeometry x="1040" y="699" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xJ2DTqigO46Sq3Atfy-0-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xJ2DTqigO46Sq3Atfy-0-8" target="xJ2DTqigO46Sq3Atfy-0-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="740" as="sourcePoint" />
-            <mxPoint x="400" y="690" as="targetPoint" />
+            <mxPoint x="1160" y="739" as="sourcePoint" />
+            <mxPoint x="1210" y="689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xJ2DTqigO46Sq3Atfy-0-13" value="在内存攒够一个chunk就可以写文件了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="710" width="150" height="30" as="geometry" />
+          <mxGeometry x="-10" y="708" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xJ2DTqigO46Sq3Atfy-0-14" value="" style="endArrow=classic;html=1;rounded=1;fontSize=15;fontColor=#000000;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qaSsre2YBbdbYtxjaB4-55" target="jFmLBydTxy6HVp0taI7g-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
